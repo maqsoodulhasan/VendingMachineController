@@ -5,7 +5,7 @@ using System.Text;
 
 namespace VendingMachineController.Model
 {
-    class Toy:Product
+   public class Toy:Product
     {
         public override string ProductName { get; }
         public override int ProductCost { get; }

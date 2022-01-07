@@ -8,7 +8,7 @@ namespace VendingMachineController.Model
    public interface IVending
     {
         void Purchase(int SelectedProduct);
-        void ShowAll();
+       void ShowAll();
         bool InsertMoney(int money);
         void EndTransaction();
     }

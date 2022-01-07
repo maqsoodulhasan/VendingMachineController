@@ -10,7 +10,7 @@ namespace VendingMachineController.Model
     {
         public static List<Product> Prod = new List<Product>();
         readonly int[] MoneyPoolArray = new int[] { 1, 5, 10, 20, 50, 100, 500, 1000 };
-        public static double _MoneyPool = 0;
+        public static int _MoneyPool = 0;
         public static int TotalCost = 0;
 
         public bool InsertMoney(int money)
